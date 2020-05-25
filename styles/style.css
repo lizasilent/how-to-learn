@@ -282,26 +282,28 @@
 
 .footer {
   background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
   color: white;
   min-height: 350px;
   margin: 0;
-  padding: 0;
   padding-top: 60px;
   padding-bottom: 40px;
-  border: 1px solid red;
+
 }
 
 .footer__columns {
-  border: 1px solid red;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 90%;
-  margin: auto;
+  margin: 0;
+
 }
 
 .footer__column {
-  border: 1px solid red;
+
   display: flex;
   flex-direction: column;
 }
@@ -346,7 +348,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  border: 1px solid red;
+
 }
 
 .footer__column-social-icon {
