@@ -20,6 +20,11 @@
   color: #000000;
 }
 
+.header_link {
+color: #2f80ed;
+
+}
+
 .logo {
   background-repeat: no-repeat;
   background-size: contain;
@@ -289,21 +294,17 @@
   margin: 0;
   padding-top: 60px;
   padding-bottom: 40px;
-
 }
 
 .footer__columns {
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 90%;
   margin: 0;
-
 }
 
 .footer__column {
-
   display: flex;
   flex-direction: column;
 }
@@ -348,7 +349,6 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-
 }
 
 .footer__column-social-icon {
