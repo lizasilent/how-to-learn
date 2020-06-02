@@ -19,6 +19,7 @@
 }
 
 .header {
+  border: 1px solid yellow;
   position: relative;
   display: flex;
   align-items: center;
@@ -113,7 +114,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  margin: 0 auto 100px auto;
+  margin: 0 auto 0 auto;
 }
 .section-title_block_techniques {
   line-height: 1.15;
@@ -130,13 +131,13 @@
 }
 
 .cards__item {
-  border: 1px solid yellow;
+  border: 1px solid green;
   text-align: center;
   width: 240px;
   margin-right: 100px;
 }
 
-.cards__item:nth-child(3n) {
+.cards__item:nth-child(3n+3) {
   margin-right: 0;
 }
 
@@ -165,9 +166,11 @@
 
 .video {
   border: 1px solid blue;
+  padding-top:100px;
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-bottom: -60px;
 }
 
 .video__iframes {
@@ -190,22 +193,26 @@
 }
 
 .oakley {
+  border: 1px solid greenyellow;
   display: flex;
   justify-content: center;
   background-color: #f2f2f2;
-  margin: -60px auto 0 auto;
+  margin: 0 auto 0 auto;
+  padding-top:160px;
 }
 
 .description {
+  border: 1px solid green;
   display: flex;
   justify-content: center;
+  padding-top: 100px;
 }
 
 .two-colums {
+  border: 1px solid yellow;
   display: flex;
   justify-content: space-between;
   width: 80%;
-  margin-top: 100px;
 }
 
 .two-colums__brief {
@@ -241,6 +248,7 @@
 }
 
 .digits {
+  border: 1px solid rgb(212, 30, 61);
   position: relative;
 }
 
@@ -276,6 +284,7 @@
 }
 
 .feynman {
+  border: 1px solid rgb(243, 16, 73);
   position: relative;
   height: 790px;
   background: url(../images/feynman.png) no-repeat bottom left;
@@ -312,6 +321,7 @@
 }
 
 .kaufman {
+  border: 1px solid yellow;
   position: relative;
   overflow: hidden;
   background-color: #1f1f1f;
@@ -358,6 +368,7 @@
 }
 
 .footer {
+  border: 1px solid rgb(24, 238, 17);
   background-color: #1f1f1f;
   display: flex;
   justify-content: center;
