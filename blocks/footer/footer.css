@@ -1,0 +1,20 @@
+@import url(../footer/__author/footer__author.css);
+@import url(../footer/__column/footer__column.css);
+@import url(../footer/__column-heading/footer__column-heading.css);
+@import url(../footer/__column-link/footer__column-link.css);
+@import url(../footer/__column-links/footer__column-links.css);
+@import url(../footer/__columns/footer__columns.css);
+@import url(../footer/__social-icon/footer__social-icon.css);
+@import url(../logo/_place/logo_place_footer.css);
+
+
+.footer {
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  color: white;
+  min-height: 350px;
+  margin: 0;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
