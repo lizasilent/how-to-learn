@@ -1,9 +1,0 @@
-.resources__logo_nplus {
-  background: url(../../../../images/resources-n1.svg) no-repeat center;
-  background-size: contain;
-  transition: opacity 0.2s linear;
-}
-
-.resources__logo_nplus:hover {
-  opacity: 0.6;
-}

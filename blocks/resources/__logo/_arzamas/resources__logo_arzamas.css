@@ -1,9 +1,0 @@
-.resources__logo_arzamas {
-  background: url(../../../../images/resources-arzamas.svg) no-repeat center;
-  background-size: contain;
-  transition: opacity 0.2s linear;
-}
-
-.resources__logo_arzamas:hover {
-  opacity: 0.6;
-}

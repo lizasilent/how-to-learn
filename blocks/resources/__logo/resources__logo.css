@@ -1,9 +1,9 @@
-@import url(../resources/__logo/_arzamas/resources__logo_arzamas.css);
-@import url(../resources/__logo/_nplus/resources__logo_nplus.css);
-@import url(../resources/__logo/_polka/resources__logo_polka.css);
-@import url(../resources/__logo/_strelka/resources__logo_strelka.css);
-
 .resources__logo {
   width: 270px;
   height: 38px;
+  transition: opacity 0.2s linear;
 }
+.resources__logo:hover {
+  opacity: 0.6;
+}
+

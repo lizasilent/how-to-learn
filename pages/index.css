@@ -1,4 +1,4 @@
-@import url(../pages/normalize.css);
+@import url(../styles/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/header/header.css);
@@ -19,5 +19,3 @@
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/rotation/rotation.css);
 @import url(../blocks/footer/footer.css);
-
-
